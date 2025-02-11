@@ -21,11 +21,11 @@ public class ExceptionConfig {
         return new GenerateResponse<>(404, "未找到页面");
     }
 
-    /* @ExceptionHandler(Exception.class)
+    @ExceptionHandler(Exception.class)
     @ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
     public GenerateResponse<String> internalServerErrorHandle() {
         return new GenerateResponse<>(500, "未知错误");
-    } */
+    }
 
     @ExceptionHandler(ExceptionResponse.class)
     public GenerateResponse<String> ExceptionResponseHandle(ExceptionResponse error) {
