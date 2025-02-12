@@ -279,7 +279,7 @@ public class Tarot {
                     """ + question;
         }
         if (isPro) {
-            return AIRequestUtil.getAIResponse(prompt, AIModel.DEEPSEEK_REPONSER_OPEN).getContent();
+            return AIRequestUtil.getAIResponse(prompt, AIModel.DEEPSEEK_REPONSER).getContent();
         } else {
             return AIRequestUtil.getAIResponse(prompt, AIModel.GLM_FLASH).getContent();
         }

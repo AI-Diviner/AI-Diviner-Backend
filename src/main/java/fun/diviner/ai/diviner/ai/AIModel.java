@@ -16,11 +16,6 @@ public enum AIModel {
             "https://api.deepseek.com",
             ""
     ),
-    DEEPSEEK_REPONSER_OPEN(
-            "deepseek/deepseek-r1",
-            "https://openrouter.ai/api/v1/",
-            ""
-    ),
     GLM_FLASH(
             "glm-4-flash",
             "https://open.bigmodel.cn/api/paas/v4/",

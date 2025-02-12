@@ -20,6 +20,6 @@ public class MeiHua {
                 问题: %s
                 """.formatted(arrangeResponse.getBazi(), arrangeResponse.getBen().getName(), arrangeResponse.getBian().getName(), question);
 
-        return AIRequestUtil.getAIResponse(prompt, AIModel.DEEPSEEK_REPONSER_OPEN).getContent();
+        return AIRequestUtil.getAIResponse(prompt, AIModel.DEEPSEEK_REPONSER).getContent();
     }
 }

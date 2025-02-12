@@ -29,7 +29,7 @@ public class BaZi {
             prompt = "你是一个命理大师 请你解析八字 %s %s给出层次如何 不需要进行大运的解析 但给出适合的大运流年 最后给出一首诗来"
                     .formatted(obj.getBazi(), obj.getGender());
         }
-        return AIRequestUtil.getAIResponse(prompt, AIModel.DEEPSEEK_REPONSER_OPEN).getContent();
+        return AIRequestUtil.getAIResponse(prompt, AIModel.DEEPSEEK_REPONSER).getContent();
     }
 
     public static BaZiTool getBaZiObj(BaZiArrangeParameter parameter) {
