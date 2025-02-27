@@ -16,6 +16,6 @@
 1. `yiPayId`(易支付ID)
 2. `yiPayMerchantPrivateKey`(易支付商户私钥)
 3. `yiPayPlatformPublicKey`(易支付平台公钥)
-4. `yiPayNoticeUrlPrefix`(易支付后端回调前缀)，比如说你的后端API域名是`https://api.diviner.fun`,那么这个字段就是`https://api.diviner.fun`，不要带最后的`/`
+4. `yiPayNoticeUrlPrefix`(易支付后端回调前缀)，比如说你的后端API域名是`https://api.ai.diviner.fun`,那么这个字段值就是`https://api.ai.diviner.fun`，不要带最后的`/`
 5. `yiPayReturnUrl`(易支付前端回调地址)，这个输入你的前端网址即可
 > 我这里使用的是[易支付](https://yi-pay.com/)这家的平台，你也可以使用其他的同类型的平台，通常情况下应该只需要修改`src/main/java/fun/diviner/ai/util/yi_pay/YiPay.java`这个中的支付接口网址即可
