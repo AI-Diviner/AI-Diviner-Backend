@@ -11,14 +11,13 @@
         <relativePath/>
     </parent>
 
-    <groupId>fun.diviner.ai</groupId>
-    <artifactId>AI-Diviner</artifactId>
+    <groupId>fun.diviner.aidiviner</groupId>
+    <artifactId>ai-diviner</artifactId>
     <version>1.0.0</version>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>21</maven.compiler.source>
-        <maven.compiler.target>21</maven.compiler.target>
+        <java.version>21</java.version>
 
         <mybatis-plus.version>3.5.7</mybatis-plus.version>
         <hutool.version>5.8.29</hutool.version>

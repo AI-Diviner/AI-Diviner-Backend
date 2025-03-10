@@ -10,7 +10,7 @@
 5. 将根目录下的data.sql导入到数据库中
 6. 修改数据库中的支付配置，往下看[支付配置](#支付配置)
 7. 运行`mvn clean package`打包项目
-8. 运行`java -jar target/AI-Diviner-1.0.0.jar`启动项目
+8. 运行`java -jar target/ai-diviner-1.0.0.jar`启动项目
 ### 支付配置
 首先进入core表中,修改以下字段:
 1. `yiPayId`(易支付ID)
