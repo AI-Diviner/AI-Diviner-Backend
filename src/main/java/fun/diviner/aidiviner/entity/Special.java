@@ -1,7 +1,7 @@
 package fun.diviner.aidiviner.entity;
 
 public class Special {
-    public static String authSecret = "AI-Diviner-Server-Server-Server-1739116315";
+    public static String authSecret = "AI-Diviner-Backend-Backend-Backend-1739116315";
     public static class AttributeName {
         public static String user = "user";
         public static String trade = "trade";

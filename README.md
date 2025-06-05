@@ -1,7 +1,7 @@
 ## 介绍
 一个AI聊天助手,可以辅助解卦,塔罗占卜,八字命理
 ## 前端
-[AI-Diviner-Web](https://github.com/AI-Diviner/AI-Diviner-Frontend)
+[AI-Diviner-Frontend](https://github.com/Let-Fate/AI-Diviner-Frontend)
 ## 部署
 1. 请先安装Java21,MySQL8以及Redis
 2. 修改`src/main/resources/application.yml`文件将数据库和Redis配置修改为自己的配置
