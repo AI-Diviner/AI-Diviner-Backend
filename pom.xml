@@ -11,7 +11,7 @@
         <relativePath/>
     </parent>
 
-    <groupId>fun.diviner.aidiviner</groupId>
+    <groupId>com.letfate.aidiviner</groupId>
     <artifactId>ai-diviner-backend</artifactId>
     <version>1.0.0</version>
 
