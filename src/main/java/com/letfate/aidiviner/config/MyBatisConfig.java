@@ -7,7 +7,7 @@ import com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor;
 import com.baomidou.mybatisplus.extension.plugins.inner.PaginationInnerInterceptor;
 
 @Configuration
-@MapperScan("fun.diviner")
+@MapperScan("com.letfate.aidiviner.mapper")
 public class MyBatisConfig {
     @Bean
     public MybatisPlusInterceptor mybatisPlusPageInterceptorBean() {
